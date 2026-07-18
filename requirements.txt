@@ -1,0 +1,10 @@
+# MMBpm — runtime dependencies
+# Python 3.10+ (tested on 3.14)
+numpy>=1.24
+scipy>=1.10
+pygame-ce>=2.5        # audio playback (pygame also works)
+
+# External (not a pip package): ffmpeg + ffprobe must be installed and on PATH.
+#   Windows:  https://www.gyan.dev/ffmpeg/builds/  (or: winget install ffmpeg)
+#   macOS:    brew install ffmpeg
+#   Linux:    sudo apt install ffmpeg

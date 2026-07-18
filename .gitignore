@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller build output
+build/
+dist/
+*.manifest
+
+# bundled ffmpeg for local builds (downloaded, not committed)
+ffmpeg_bin/
+*.exe
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# app runtime files
+*.log
+mmbpm_mix_*.mp3
